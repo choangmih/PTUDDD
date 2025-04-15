@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797962147340",
+    "project_id": "baitapcuoiki-ffeac",
+    "storage_bucket": "baitapcuoiki-ffeac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797962147340:android:49d2d949e26ba687178029",
+        "android_client_info": {
+          "package_name": "com.example.baitapcuoiki"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-RGCOfRFpateYym09gpPDfQ2xXx25l3M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

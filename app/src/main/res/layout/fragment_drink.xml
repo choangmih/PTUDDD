@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Thêm hình ảnh đồ uống -->
+    <ImageView
+        android:id="@+id/image_detail_drink"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="Ảnh đồ uống" />
+
+    <TextView
+        android:id="@+id/text_detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tên món"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_detail_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Giá"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/button_order_drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đặt món"
+        android:layout_marginTop="20dp" />
+    <Button
+        android:id="@+id/button_view_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xem Giỏ Hàng"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center" />
+</LinearLayout>
